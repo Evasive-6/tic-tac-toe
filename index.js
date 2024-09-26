@@ -10,10 +10,10 @@ let turn=0;
 
 function playGame(box){
     if(turn%2==0){
-        box.innerHTML=<h1>${player}</h1>;
+        box.innerHTML='<h1>X</h1>';
         player='O'
     }else{
-        box.innerHTML=<h1>${player}</h1>;
+        box.innerHTML='<h1>O</h1>';
         player="X"
     }
     turn++;
